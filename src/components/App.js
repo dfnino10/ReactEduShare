@@ -1,20 +1,23 @@
 import React, {Component} from 'react';
-import './global/css/Header.css';
+import PropTypes from 'prop-types';
 
 //Components
 import Header from './global/Header'
-import Content from './global/Content'
+import SideBar from './global/SideBar'
 import Footer from './global/Footer'
 
 //Data
 import items from '../data/menu';
 
 class App extends Component {
+    static propTyes = {
+        children : PropTypes.object.isRequired
+    };
     render() {
         return (
             <div className="App">
-                <Header title = "EduSHare" items={items}/>
-                <Content/>
+                <Header title = "EduSHare"/>
+                <SideBar title = "nombre" items ={items}/>
                 <Footer copyright= "&copy; EduShare 2017"/>
             </div>
         );

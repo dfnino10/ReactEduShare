@@ -1,0 +1,24 @@
+.SideBar{
+    background-color: #171477;
+    display: inline-block;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: left;
+    color: white;
+}
+
+.Menu {
+    margin : 2px 0px 10px 2px;
+    padding: 10px;
+
+}
+
+.Menu li{
+    display: block;
+    margin: 5px;
+    padding-right: 2px;
+}
+
+h2 {
+    margin: 6px;
+}
