@@ -1,8 +1,13 @@
-import React from 'react'
-import PropTypes from 'prop-types'
+import React, {Component} from 'react'
+//import PropTypes from 'prop-types'
 
 
-class Home extends Comment{
+class Home extends Component{
+    render(){
+        return (
+            <h1>Home</h1>
+        );
+    };
 
 }
 

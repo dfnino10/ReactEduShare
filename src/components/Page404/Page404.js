@@ -1,8 +1,13 @@
-import React from 'react'
-import PropTypes from 'prop-types'
+import React, {Component} from 'react'
+//import PropTypes from 'prop-types'
 
 
-class Page404 extends Comment{
+class Page404 extends Component {
+    render() {
+        return (
+            <h1>Page not found</h1>
+        );
+    };
 
 }
 

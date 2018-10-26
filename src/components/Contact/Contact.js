@@ -1,8 +1,13 @@
-import React from 'react'
-import PropTypes from 'prop-types'
+import React, {Component} from 'react'
+//import PropTypes from 'prop-types'
 
 
-class Contact extends Comment{
+class Contact extends Component {
+    render() {
+        return (
+            <h1>Contact</h1>
+        );
+    };
 
 }
 
